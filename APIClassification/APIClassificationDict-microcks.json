@@ -1,0 +1,30 @@
+{
+  "proxy_api": [
+    "/artifact/download",
+    "/jobs",
+    "/jobs/{id}",
+    "/tests"
+  ],
+  "upload_api": [
+    "/artifact/upload"
+  ],
+  "path_api": [
+    "/artifact/download",
+    "/artifact/upload"
+  ],
+  "command_api": [],
+  "database_api": [
+    "/jobs",
+    "/jobs/{id}",
+    "/tests"
+  ],
+  "display_api": [
+    "/jobs",
+    "/jobs",
+    "/jobs/{id}",
+    "/metrics/invocations/{serviceName}/{serviceVersion}",
+    "/services/{id}/operation",
+    "/tests",
+    "/tests/{id}/testCaseResult"
+  ]
+}

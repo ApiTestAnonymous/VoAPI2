@@ -1,0 +1,52 @@
+{
+  "proxy_api": [
+    "/account/recovery",
+    "/account/verification",
+    "/avatars/favicon",
+    "/avatars/image",
+    "/teams/{teamId}/memberships"
+  ],
+  "upload_api": [
+    "/storage/files"
+  ],
+  "path_api": [
+    "/storage/files",
+    "/storage/files/{fileId}/preview"
+  ],
+  "command_api": [
+    "/functions/{functionId}/executions",
+    "/functions/{functionId}/executions",
+    "/teams/{teamId}/memberships",
+    "/teams/{teamId}/memberships",
+    "/teams/{teamId}/memberships/{membershipId}/status"
+  ],
+  "database_api": [
+    "/account/recovery",
+    "/account/verification",
+    "/database/collections",
+    "/database/collections",
+    "/database/collections/{collectionId}",
+    "/database/collections/{collectionId}/documents",
+    "/database/collections/{collectionId}/documents",
+    "/teams/{teamId}/memberships/{membershipId}/status"
+  ],
+  "display_api": [
+    "/account/name",
+    "/avatars/initials",
+    "/avatars/qr",
+    "/database/collections",
+    "/database/collections",
+    "/database/collections/{collectionId}",
+    "/database/collections/{collectionId}/documents",
+    "/database/collections/{collectionId}/documents",
+    "/functions",
+    "/functions/{functionId}",
+    "/functions/{functionId}/tag",
+    "/functions/{functionId}/tags",
+    "/storage/files/{fileId}/preview",
+    "/teams",
+    "/teams/{teamId}",
+    "/teams/{teamId}/memberships",
+    "/users"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "proxy_api": [
+    "/api/baskets/{name}",
+    "/api/baskets/{name}",
+    "/baskets/{name}",
+    "/baskets/{name}"
+  ],
+  "upload_api": [],
+  "path_api": [],
+  "command_api": [],
+  "database_api": [],
+  "display_api": [
+    "/api/baskets/{name}",
+    "/api/baskets/{name}",
+    "/api/baskets/{name}/requests",
+    "/api/baskets/{name}/responses/{method}",
+    "/baskets/{name}",
+    "/baskets/{name}",
+    "/baskets/{name}/requests",
+    "/baskets/{name}/responses/{method}"
+  ]
+}
