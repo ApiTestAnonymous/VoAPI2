@@ -1,12 +1,11 @@
-This dictionay is used to display the result of our tool's classification of API endpoint functionality.
+This dictionay is used to display the result of our tool's classification of API endpoint functionality. `# Endpoint` means the number of total API endpoints. Ratio column represents $\frac{\text{sum of all recognized apis}}{\# \ Endpoint}$.
 
-
-| Application | proxy_api (SSRF) | upload_api (Unrestricted upload) | path_api (Path Traversal) | command_api (Command Injection) | database_api (SQL) | display_api (XSS) | # Endpoint |
-| ----------- | -------------------- | ------------------------------------ | ----------------------------- | ------------------------------------ | ---------------------- | --------------------- | ---------- |
-| Appwrite    | 5                    | 1                                    | 2                             | 5                                    | 8                      | 17                    | 61         |
-| Casdoor     | 39                   | 1                                    | 6                             | 12                                   | 47                     | 48                    | 121        |
-| Microcks    | 4                    | 1                                    | 2                             | 0                                    | 3                      | 7                     | 44         |
-| Gitea       | 13                   | 1                                    | 11                            | 17                                   | 7                      | 44                    | 325        |
-| Jellyfin    | 79                   | 0                                    | 47                            | 28                                   | 82                     | 118                   | 405        |
-| Rbaskets    | 4                    | 0                                    | 0                             | 0                                    | 0                      | 8                     | 22         |
-
+| Application | proxy_api (for SSRF) | upload_api (for Unrestricted  upload) | path_api (for Path Traversal) | command_api ( for Command  Injection) | database_api (for SQL) | display_api (for XSS) | sum of all  recognized apis | # Endpoint | Ratio |
+| ----------- | -------------------- | ------------------------------------- | ----------------------------- | ------------------------------------- | ---------------------- | --------------------- | --------------------------- | ---------- | ----- |
+| Appwrite    | 5                    | 1                                     | 2                             | 5                                     | 8                      | 17                    | 38                          | 61         | 0.62  |
+| Casdoor     | 39                   | 1                                     | 6                             | 12                                    | 47                     | 48                    | 153                         | 121        | 1.26  |
+| Microcks    | 4                    | 1                                     | 2                             | 0                                     | 3                      | 7                     | 17                          | 44         | 0.39  |
+| Gitea       | 13                   | 1                                     | 11                            | 17                                    | 7                      | 44                    | 93                          | 325        | 0.29  |
+| Jellyfin    | 79                   | 0                                     | 47                            | 28                                    | 82                     | 118                   | 354                         | 405        | 0.87  |
+| Rbaskets    | 4                    | 0                                     | 0                             | 0                                     | 0                      | 8                     | 12                          | 22         | 0.55  |
+| Average     | 24.00                | 0.67                                  | 11.33                         | 10.33                                 | 24.50                  | 40.33                 | 111.17                      | 163.00     | 0.66  |
